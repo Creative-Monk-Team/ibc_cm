@@ -31,6 +31,8 @@ let Surroundings = () => {
   }, []);
   return (
     <div className={styles.surroundingsBlue} id="surroundings" ref={aboutRef}>
+      <div className={styles.whiteSqaureSection}></div>
+      <div className={styles.whiteSqaureSection2}></div>
       <div className={styles.surroundings}>
         <h4
           className={`${styles.whyChooseShortHeading} ${

@@ -17,7 +17,27 @@
 .surroundingsBlue {
   background-color: #384490;
   position: relative;
-  z-index: 10;
+  overflow: hidden;
+}
+
+.whiteSqaureSection{
+  position: absolute;
+  left: -80px;
+  bottom: -60px;
+  width: 400px;
+  height: 150px;
+  transform: rotate(30deg);
+  background-color: #6173ec;
+}
+
+.whiteSqaureSection2{
+  position: absolute;
+  right: -100px;
+  top: -50px;
+  width: 400px;
+  height: 100px;
+  transform: rotate(30deg);
+  background-color: #6173ec;
 }
 
 .surroundings h4 {

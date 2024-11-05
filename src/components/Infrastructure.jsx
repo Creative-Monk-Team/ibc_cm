@@ -59,6 +59,8 @@ let Infrastructure = () => {
   return (
     <>
       <div className={styles.primeLocationBlue} id="infrastructure">
+      <div className={styles.whiteSqaureSection}></div>
+      <div className={styles.whiteSqaureSection2}></div>
         <div className={styles.primeLocation} ref={aboutRef}>
           <div
             className={`${styles.imageSection} ${styles.animationSection} ${

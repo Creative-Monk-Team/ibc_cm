@@ -33,6 +33,8 @@ let PrimeLocation = () => {
   return (
     <>
       <div className={styles.primeLocationBlue} id="prime-location">
+      <div className={styles.whiteSqaureSection}></div>
+      <div className={styles.whiteSqaureSection2}></div>
         <div className={styles.primeLocation} ref={aboutRef}>
           <div
             className={`${styles.imageSection} ${styles.animationSection} ${

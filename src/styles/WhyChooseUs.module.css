@@ -130,7 +130,6 @@
   opacity: 0;
   visibility: hidden;
   z-index: 3; 
-  background-color: white;
 }
 
 .whyChooseGridDiv:first-of-type.showAnimationSection {

@@ -1,4 +1,4 @@
-.App * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,7 +7,7 @@
   letter-spacing: 0.5px;
 }
 
-.App img {
+img {
   width: 100%;
   height: auto;
   background-size: cover;

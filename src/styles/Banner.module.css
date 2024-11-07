@@ -210,10 +210,6 @@
     margin-top: -120px;
   }
 
-  .bannerContentSection {
-    align-items: center;
-  }
-
   .bannerContentSection h1 {
     font-size: 34px;
     letter-spacing: 1px;
@@ -230,6 +226,10 @@
 @media all and (max-width: 767px) {
   .banner {
     margin-top: 0;
+  }
+
+  .bannerContentSection {
+    align-items: center;
   }
 }
 

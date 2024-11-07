@@ -33,7 +33,7 @@
   background-image: url("../assets/whiteRibbonsBg.png");
   background-size: cover;
   background-position: center;
-  opacity: 0.08; 
+  opacity: 0.05; 
   z-index: -1; 
 }
 
@@ -147,17 +147,26 @@
   margin-bottom: 20px;
   font-size: 16px;
   text-transform: uppercase;
+  position: relative;
+  z-index: 3;
+  background-color: white;
 }
 
 .contentSection h1 {
   margin-bottom: 20px;
   margin-top: 30px;
   font-size: 44px;
+  position: relative;
+  z-index: 3;
+  /* background-color: white; */
 }
 
 .aboutDesc {
   margin-bottom: 20px;
   font-size: 15px;
+  position: relative;
+  z-index: 3;
+  background-color: white;
 }
 
 .flexContent {

@@ -174,7 +174,6 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
-  font-size: 28px;
   background-color: white;
   border-radius: 50px;
   width: 40px;
@@ -183,6 +182,11 @@
   align-items: center;
   justify-content: center;
   color: #384490;
+}
+
+.arrow img{
+  width: 20px;
+  height: 20px;
 }
 
 @media all and (max-width: 1500px) {

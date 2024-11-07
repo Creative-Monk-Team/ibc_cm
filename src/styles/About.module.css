@@ -184,7 +184,7 @@
 .yellowLine {
   width: 30%;
   height: 5px;
-  background-color: #394c9b;
+  background: linear-gradient(to right , #7d89d5 , #030b39);
 }
 
 .flexContent div p {

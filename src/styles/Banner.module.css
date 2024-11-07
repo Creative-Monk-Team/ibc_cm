@@ -143,10 +143,11 @@
   height: 0;
   border-style: solid;
   border-width: 100px 200px 100vh 0;
-  border-color: transparent #717171 transparent transparent;
+  border-color: transparent #c2c1c1 transparent transparent;
   position: absolute;
   right: 0;
   top: 0;
+  z-index: 3;
   opacity: 0.15;
 }
 
@@ -168,6 +169,7 @@
   background-color: transparent;
   color: #384490;
   font-size: 14px;
+  z-index: 4;
 }
 
 .bannerFormSection div input:focus {
@@ -210,6 +212,8 @@
   font-size: 16px;
   color: white;
   font-weight: 600;
+  position: relative;
+  z-index: 4;
 }
 
 .bannerFormSection button:hover {

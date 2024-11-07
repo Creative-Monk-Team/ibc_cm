@@ -81,7 +81,7 @@
   width: 70%;
   margin: auto;
   margin-bottom: 50px;
-  font-size: 15px;
+  font-size: 17px;
   position: relative;
   top: 100px;
   opacity: 0;
@@ -167,14 +167,14 @@
 }
 
 .whyChooseUsGrid div h4 {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   font-weight: 800;
   font-size: 22px;
   color: #384490;
 }
 
 .whyChooseUsGrid div p {
-  font-size: 14px;
+  font-size: 15px;
   width: 80%;
   margin: auto;
 }

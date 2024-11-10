@@ -25,6 +25,7 @@ let Checking = () => {
 
   return (
     <div className={styles.checking}>
+      <p><b>{data.length} Visitors</b></p>
       <table>
         <thead>
           <tr>

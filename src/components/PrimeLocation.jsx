@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from "react";
 import styles from "../styles/PrimeLocation.module.css";
 import WhiteButton from "./WhiteButton";
-import image from "../assets/primeLocation.png";
+import image from "../assets/primeLocation2.png";
 
 let PrimeLocation = () => {
   let aboutRef = useRef(null);

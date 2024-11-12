@@ -16,13 +16,13 @@ import { useEffect } from "react";
 
 let Homepage = () => {
   useEffect(() => {
-    fetch(
-      "https://api.ipgeolocation.io/ipgeo?apiKey=7446859e69024286833e93c63b768294"
-    )
-      .then((res) => {
-        return res.json();
-      })
-      .then((data) => {
+    let fetchData = async () => {
+      try {
+        const res = await fetch(
+          "https://api.ipgeolocation.io/ipgeo?apiKey=7446859e69024286833e93c63b768294"
+        );
+        const data = await res.json();
+
         if (data) {
           let currentDate = new Date();
           let formattedDate = currentDate.toISOString().split("T")[0];
@@ -30,7 +30,8 @@ let Homepage = () => {
             .toISOString()
             .split("T")[1]
             .split(".")[0];
-          fetch("https://ibc-cm-default-rtdb.firebaseio.com/data.json", {
+
+          await fetch("https://ibc-cm-default-rtdb.firebaseio.com/data.json", {
             method: "POST",
             headers: {
               "Content-type": "application/json",
@@ -45,16 +46,14 @@ let Homepage = () => {
               date: formattedDate,
               time: new Date().toLocaleTimeString(),
             }),
-          })
-            .then((response) => response.json())
-            .catch((error) => {
-              console.log("Error:", error);
-            });
+          });
         }
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+      } catch (error) {
+        console.error("Error:", error);
+      }
+    };
+
+    fetchData();
   }, []);
   return (
     <>
